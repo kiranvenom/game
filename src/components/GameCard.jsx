@@ -3,7 +3,7 @@ import CriticScore from './CriticSrore';
 
 const GameCard = ({ game }) => {
 	return (
-		<Card borderRadius={'10px'} overflow={'hidden'}>
+		<Card width={'400px'} borderRadius={'10px'} overflow={'hidden'}>
 			<Image src={game.background_image} />
 			<CardBody>
 				<Heading fontSize={'2xl'}>{game.name}</Heading>
